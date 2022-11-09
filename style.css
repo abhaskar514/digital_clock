@@ -1,0 +1,50 @@
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(3, 0, 0);
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+  h2{
+    color: blue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .clock{
+    color:antiquewhite;
+    font-family: sans-serif;
+    font-size: 60px;
+    background-color:red;
+    border:2px solid transparent;
+    border-radius: 20px;  
+    padding: 7px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+  }
+
+  .format{
+    color:rgb(13, 248, 225);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    background-color:rgb(147, 5, 5);
+    border:2px solid transparent;
+    border-radius: 10px;  
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bolder;
+  
+
+
+    
+  }
+  .format:hover{
+    color:rgb(0, 255, 76);
+    transform: scale(1.2);
+  }
